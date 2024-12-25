@@ -21,10 +21,14 @@ P(K N) = KCk × (N-K)C(n-k) / NCn <br>
 P(1 40) = 40C1 ()  <br>
 
 ### Patch 14.24
-"Binomial Random Variable" (Independent Trial) <br>
-P(k n) is a probability of success k time in n trial (order doesn't matter) <br>
-P(k n) = nCk × pᵏ × (1-p)ⁿ⁻ᵏ <br>
-P(0,100) <br>
+"Geometric Random Variable" (Independent Trial) <br>
+P(n) is a probability of success for the first time in n trial <br>
+P(n) = pᵏ(1-p)ⁿ⁻¹ <br>
+P(1) = (1/40)¹(39/40)⁰ <br>
+P(2) = (1/40)¹(39/40)¹ <br>
+P(3) = (1/40)¹(39/40)² <br>
+P(4) = (1/40)¹(39/40)³ <br>
+P(5) = (1/40)¹(39/40)⁴ <br>
 
 
 ## Result from Simulation
