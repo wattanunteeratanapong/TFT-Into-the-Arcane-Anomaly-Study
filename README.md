@@ -20,7 +20,7 @@ P(K N) is a probability of success k time in n trial (order doesn't matter) <br>
 P(K N) = KCk × (N-K)C(n-k) / NCn <br>
 P(1 40) = 40C1 ()  <br>
 
-### Patch 14.23
+### Patch 14.24
 "Binomial Random Variable" (Independent Trial) <br>
 P(k n) is a probability of success k time in n trial (order doesn't matter) <br>
 P(k n) = nCk × pᵏ × (1-p)ⁿ⁻ᵏ <br>
