@@ -14,17 +14,16 @@ If we compare this to the Probability Patch 14.23 would be Dependent Trail, and 
 
 ## Hypothesis
 ### Patch 14.23
-"Hypergeometric Random Variable" (Dependent Trial)
-P(K N) is a probability of success k time in n trial (order doesn't matter)
-P(K N) = KCk × (N-K)C(n-k) / NCn
-P(1 40) = 40C1 () 
+"Hypergeometric Random Variable" (Dependent Trial) <br>
+P(K N) is a probability of success k time in n trial (order doesn't matter) <br>
+P(K N) = KCk × (N-K)C(n-k) / NCn <br>
+P(1 40) = 40C1 ()  <br>
 
 ### Patch 14.23
-"Binomial Random Variable" (Independent Trial)
-P(k n) is a probability of success k time in n trial (order doesn't matter)
-P(k n) = nCk × pᵏ × (1-p)ⁿ⁻ᵏ
-
-P(0,100)
+"Binomial Random Variable" (Independent Trial) <br>
+P(k n) is a probability of success k time in n trial (order doesn't matter) <br>
+P(k n) = nCk × pᵏ × (1-p)ⁿ⁻ᵏ <br>
+P(0,100) <br>
 
 
 ## Result from Simulation
