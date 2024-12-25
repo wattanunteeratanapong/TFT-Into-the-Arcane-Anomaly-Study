@@ -38,8 +38,8 @@ P(5) = (1/40)¹(39/40)⁴ <br>
 
 
 ## Source
-<a href="https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-14-23-notes/">Teamfight Tactics patch 14.23 notes</a>
+<a href="https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-14-23-notes/" target="_blank">Teamfight Tactics patch 14.23 notes</a>
 <br>
 
-<a href="https://teamfighttactics.leagueoflegends.com/en-ph/news/game-updates/teamfight-tactics-patch-14-24-notes/">Teamfight Tactics patch 14.24 notes</a>
+<a href="https://teamfighttactics.leagueoflegends.com/en-ph/news/game-updates/teamfight-tactics-patch-14-24-notes/" target="_blank">Teamfight Tactics patch 14.24 notes</a>
 <br>
