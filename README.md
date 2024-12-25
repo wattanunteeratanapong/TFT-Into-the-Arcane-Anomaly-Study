@@ -27,9 +27,10 @@ P(k n) = nCk × pᵏ × (1-p)ⁿ⁻ᵏ
 P(0,100)
 
 
+## Result from Simulation
 
 
-
+## Conclusion
 
 
 ## Source
