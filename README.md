@@ -4,7 +4,7 @@ Have you ever wonder how many time do we have to roll until we found the anomaly
 
 
 ## Overview
-TFT is a game that heavily rely on a statistic, In this repository we are gonna find out that how many gold do we need to spare for reroll to find anomaly that we're looking for. <br>
+TFT is a game that heavily rely on a probability and statistic, In this repository we are gonna find out that how many gold do we need to spare for reroll to find anomaly that we're looking for. <br>
 So that we can use this info for make the best decision for the best strategy and getting out of this elo hell. <br>
 In this experiment we gonna test both patch 14.23 and 14.24 <br><br>
 The different between these patch anomaly system is <br>
