@@ -14,27 +14,40 @@ Time of simulation is around 10 million time for getting close to the theoratica
 
 
 ## Hypothesis
-### Patch 14.23
-"Hypergeometric Random Variable" (Dependent Trial) <br>
-P(K N) is a probability of success k time in n trial (order doesn't matter) <br>
-P(K N) = KCk × (N-K)C(n-k) / NCn <br>
-P(1 40) = 40C1 ()  <br>
+### Patch 14.23 (Dependent Trial)
+P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
+P(n) = (Fail₁)(Fail₂)(Fail₃)...(Failₙ₋₁)(Success) <br> 
+P(1) = (1/60) = 1/60 <br>
+P(2) = (59/60)(1/59) = 1/60 <br>
+P(3) = (59/60)(58/59)(1/58) = 1/60 <br>
+P(4) = (59/60)(58/59)(57/58)(1/57) = 1/60 <br>
+P(5) = (59/60)(58/59)(57/58)(56/57)(1/56) = 1/60 <br>
+P(60) = (59/60)(58/59)(57/58)(56/57)(1/56)...(1/2)(1/1) = 1/60 <br>
+Running out of anomaly after 60 trail <br>
+Probability of getting anomaly that we are looking for after reroll n time is the same at every n <br>
 
-### Patch 14.24
+### Patch 14.24 (Independent Trial)
 "Geometric Random Variable" (Independent Trial) <br>
-P(n) is a probability of success for the first time in n trial <br>
+P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
 P(n) = pᵏ(1-p)ⁿ⁻¹ <br>
-P(1) = (1/40)¹(39/40)⁰ <br>
-P(2) = (1/40)¹(39/40)¹ <br>
-P(3) = (1/40)¹(39/40)² <br>
-P(4) = (1/40)¹(39/40)³ <br>
-P(5) = (1/40)¹(39/40)⁴ <br>
+P(1) = (1/40)¹(39/40)⁰ = 0.02500 <br>
+P(2) = (1/40)¹(39/40)¹ = 0.02438 <br>
+P(3) = (1/40)¹(39/40)² = 0.02377 <br>
+P(4) = (1/40)¹(39/40)³ = 0.02317 <br>
+P(5) = (1/40)¹(39/40)⁴ = 0.02259 <br>
+P(60) = (1/40)¹(39/40)⁵⁹ = 0.00547 <br>
+P(100) = (1/40)¹(39/40)⁹⁹ = 0.00199 <br>
+P(200) = (1/40)¹(39/40)¹⁹⁹ = 0.00016 <br>
+This patch anomaly will running out you might get the same in worse case you might find your anomaly at infinite trial <br>
+Probability of getting anomaly that we are looking for in higher trail is lower than lower trial <br>
 
 
 ## Result from Simulation
 
 
+
 ## Conclusion
+
 
 
 ## Source
