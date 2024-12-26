@@ -27,7 +27,7 @@ Running out of anomaly after 60 trail <br>
 Probability of getting anomaly that we are looking for after reroll n time is the same at every n attemp<br>
 
 ### Patch 14.24 (Independent Trial)
-"Geometric Random Variable" (Independent Trial) <br>
+This scenerio we could apply "Geometric Random Variable" <br>
 P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
 P(n) = pᵏ(1-p)ⁿ⁻¹ <br>
 P(1) = (1/40)¹(39/40)⁰ = 0.02500 <br>
