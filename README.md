@@ -30,34 +30,46 @@ Running out of anomaly after 60 trail <br>
 This scenerio we could apply "Geometric Random Variable" <br>
 P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
 P(n) = pᵏ(1-p)ⁿ⁻¹ <br>
-P(1) = (1/40)¹(39/40)⁰ = 0.02500 <br>
-P(2) = (1/40)¹(39/40)¹ = 0.02438 <br>
-P(3) = (1/40)¹(39/40)² = 0.02377 <br>
-P(4) = (1/40)¹(39/40)³ = 0.02317 <br>
-P(5) = (1/40)¹(39/40)⁴ = 0.02259 <br>
-P(60) = (1/40)¹(39/40)⁵⁹ = 0.00547 <br>
-P(100) = (1/40)¹(39/40)⁹⁹ = 0.00199 <br>
-P(200) = (1/40)¹(39/40)¹⁹⁹ = 0.00016 <br>
+P(1) = (1/60)¹(59/60)⁰ = 0.01639 <br>
+P(2) = (1/60)¹(59/60)¹ = 0.01612 <br>
+P(3) = (1/60)¹(59/60)² = 0.01585 <br>
+P(4) = (1/60)¹(59/60)³ = 0.01558 <br>
+P(5) = (1/60)¹(59/60)⁴ = 0.01532 <br>
+P(60) = (1/60)¹(59/60)⁵⁹ = 0.00608 <br>
+P(100) = (1/60)¹(59/60)⁹⁹ = 0.00310 <br>
+P(200) = (1/60)¹(59/60)¹⁹⁹ = 0.00058 <br>
 This patch anomaly will not running out <br><br>
 
 
 ## Result from Simulation
 ### Patch 14.23 (Dependent Trial)
-![Screenshot 2024-12-26 121410](https://github.com/user-attachments/assets/ae3f102f-a0ea-43f0-8cec-8b29af53027b)
+![Screenshot 2024-12-26 133633](https://github.com/user-attachments/assets/1eb0b984-6dab-4ce6-a623-114caab2e263)
 
 ### Patch 14.24 (Independent Trial)
-![Screenshot 2024-12-26 125238](https://github.com/user-attachments/assets/b9cdd5d0-be00-4849-b90c-cc3679b39246)
-
+![Screenshot 2024-12-26 133553](https://github.com/user-attachments/assets/2aa86f92-2e7c-49f2-b24f-e2a647bb4d87)
+<br><br>
 
 ## Conclusion
-Probability of getting anomaly that we are looking for after reroll n time is the same at every n attemp<br>
+The "Experimental Probability" and "Theoratical Probability" are pretty close
 
-This patch anomaly will not running out you might get the same in worse case you might find your anomaly at infinite trial <br>
-Probability of getting anomaly that we are looking for in higher trail is lower than lower trial <br>
+### Patch 14.23 
+In this patch, the chance of getting the anomaly we’re looking for increase every trail because we’re selecting anomalies that we’re not looking for out of the pool. But if we look at the number of trails to get the anomaly, the chance is the same for every trial. <br>
+The expected value of this patch from simulation is around 30 so it mean we most likely to get anomaly that we're looking for in trial 30, in that case we need a spare gold around 60 gold to get anomaly that we're looking for.
+
+### Patch 14.24 
+In this patch, the chance of getting the anomaly we’re looking for is the same for every trial because we’re not selecting anomalies that we’re not looking for out of the pool. But if we look at the number of trails, the chance of getting the anomaly decreases the more trails we make. <br>
+The expected value of this patch from simulation is around 60 so it mean we most likely to get anomaly that we're looking for in trial 60, in that case we need a spare gold around 120 gold to get anomaly that we're looking for.
+<br><br>
 
 ## Source
 <a href="https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-14-23-notes/">Teamfight Tactics patch 14.23 notes</a>
 <br>
 
 <a href="https://teamfighttactics.leagueoflegends.com/en-ph/news/game-updates/teamfight-tactics-patch-14-24-notes/">Teamfight Tactics patch 14.24 notes</a>
+<br>
+
+<a href="https://youtu.be/h6QdOe8kUDM?si=xlZhD0uz-pEDYvyN">What's NEW in the 5 Week Patch | TFT Patch 14.24 Review</a>
+<br>
+
+<a href="https://youtu.be/WJQswHGe5sU?si=S3EnpCjzm_eOXJZ_">Patch 14.24 Preview and Anomalies Breakdown Part 2 - Set 13 Into the Arcane</a>
 <br>
