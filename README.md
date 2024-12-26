@@ -4,11 +4,12 @@ Have you ever wonder how many time do we have to roll until we found the anomaly
 
 
 ## Overview
-In this experiment we gonna test both patch 14.23 and 14.24 <br>
+In this experiment we gonna test both patch 14.23 and 14.24 <br><br>
 The different between these patch anomaly system is <br>
 Patch 14.23 : The anomaly that have already been roll are not gonna appear again in the pool <br>
-Patch 14.24 : The anomaly that have already been roll might be able to appear again in the pool <br>
+Patch 14.24 : The anomaly that have already been roll might be able to appear again in the pool <br><br>
 If we compare this to the Probability Patch 14.23 would be "Dependent Trail", and Patch 14.24 would be "Independent Trial" <br>
+Patch 14.24 have some adjustment to a few anomaly but the amount of the anomaly in this patch are still the same <br>
 Time of simulation is around 10 million time for getting close to the theoratical probability as much as possible <br>
 <br>
 
