@@ -25,7 +25,6 @@ P(4) = (59/60)(58/59)(57/58)(1/57) = 1/60 <br>
 P(5) = (59/60)(58/59)(57/58)(56/57)(1/56) = 1/60 <br>
 P(60) = (59/60)(58/59)(57/58)(56/57)(1/56)...(1/2)(1/1) = 1/60 <br>
 Running out of anomaly after 60 trail <br>
-Probability of getting anomaly that we are looking for after reroll n time is the same at every n attemp<br>
 
 ### Patch 14.24 (Independent Trial)
 This scenerio we could apply "Geometric Random Variable" <br>
@@ -39,8 +38,7 @@ P(5) = (1/40)¹(39/40)⁴ = 0.02259 <br>
 P(60) = (1/40)¹(39/40)⁵⁹ = 0.00547 <br>
 P(100) = (1/40)¹(39/40)⁹⁹ = 0.00199 <br>
 P(200) = (1/40)¹(39/40)¹⁹⁹ = 0.00016 <br>
-This patch anomaly will running out you might get the same in worse case you might find your anomaly at infinite trial <br>
-Probability of getting anomaly that we are looking for in higher trail is lower than lower trial <br>
+This patch anomaly will not running out <br>
 
 
 ## Result from Simulation
@@ -48,8 +46,10 @@ Probability of getting anomaly that we are looking for in higher trail is lower 
 
 
 ## Conclusion
+Probability of getting anomaly that we are looking for after reroll n time is the same at every n attemp<br>
 
-
+This patch anomaly will not running out you might get the same in worse case you might find your anomaly at infinite trial <br>
+Probability of getting anomaly that we are looking for in higher trail is lower than lower trial <br>
 
 ## Source
 <a href="https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-14-23-notes/">Teamfight Tactics patch 14.23 notes</a>
