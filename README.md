@@ -43,8 +43,10 @@ This patch anomaly will not running out <br><br>
 
 ## Result from Simulation
 ### Patch 14.23 (Dependent Trial)
+![Screenshot 2024-12-26 121410](https://github.com/user-attachments/assets/ae3f102f-a0ea-43f0-8cec-8b29af53027b)
 
 ### Patch 14.24 (Independent Trial)
+![Screenshot 2024-12-26 125238](https://github.com/user-attachments/assets/b9cdd5d0-be00-4849-b90c-cc3679b39246)
 
 
 ## Conclusion
