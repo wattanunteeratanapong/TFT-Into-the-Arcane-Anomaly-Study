@@ -24,7 +24,7 @@ P(4) = (59/60)(58/59)(57/58)(1/57) = 1/60 <br>
 P(5) = (59/60)(58/59)(57/58)(56/57)(1/56) = 1/60 <br>
 P(60) = (59/60)(58/59)(57/58)(56/57)(1/56)...(1/2)(1/1) = 1/60 <br>
 Running out of anomaly after 60 trail <br>
-Probability of getting anomaly that we are looking for after reroll n time is the same at every n <br>
+Probability of getting anomaly that we are looking for after reroll n time is the same at every n attemp<br>
 
 ### Patch 14.24 (Independent Trial)
 "Geometric Random Variable" (Independent Trial) <br>
