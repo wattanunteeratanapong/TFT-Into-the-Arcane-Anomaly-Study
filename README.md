@@ -18,12 +18,12 @@ Time of simulation is around 10 million time for getting close to the theoratica
 ### Patch 14.23 (Dependent Trial)
 P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
 P(n) = (Fail₁)(Fail₂)(Fail₃)...(Failₙ₋₁)(Success) <br> 
-P(1) = (1/60) = 1/60 <br>
-P(2) = (59/60)(1/59) = 1/60 <br>
-P(3) = (59/60)(58/59)(1/58) = 1/60 <br>
-P(4) = (59/60)(58/59)(57/58)(1/57) = 1/60 <br>
-P(5) = (59/60)(58/59)(57/58)(56/57)(1/56) = 1/60 <br>
-P(60) = (59/60)(58/59)(57/58)(56/57)(1/56)...(1/2)(1/1) = 1/60 <br>
+P(1) = (1/60) = 1/60 = 0.01666 <br>
+P(2) = (59/60)(1/59) = 1/60 = 0.01666 <br>
+P(3) = (59/60)(58/59)(1/58) = 1/60 = 0.01666 <br>
+P(4) = (59/60)(58/59)(57/58)(1/57) = 1/60 = 0.01666 <br>
+P(5) = (59/60)(58/59)(57/58)(56/57)(1/56) = 1/60 = 0.01666 <br>
+P(60) = (59/60)(58/59)(57/58)(56/57)(1/56)...(1/2)(1/1) = 1/60 = 0.01666 <br>
 Running out of anomaly after 60 trail <br>
 
 ### Patch 14.24 (Independent Trial)
@@ -38,11 +38,13 @@ P(5) = (1/40)¹(39/40)⁴ = 0.02259 <br>
 P(60) = (1/40)¹(39/40)⁵⁹ = 0.00547 <br>
 P(100) = (1/40)¹(39/40)⁹⁹ = 0.00199 <br>
 P(200) = (1/40)¹(39/40)¹⁹⁹ = 0.00016 <br>
-This patch anomaly will not running out <br>
+This patch anomaly will not running out <br><br>
 
 
 ## Result from Simulation
+### Patch 14.23 (Dependent Trial)
 
+### Patch 14.24 (Independent Trial)
 
 
 ## Conclusion
