@@ -50,7 +50,7 @@ This patch anomaly will not running out <br><br>
 <br><br>
 
 ## Conclusion
-The "Experimental Probability" and "Theoratical Probability" are pretty close
+The "Experimental Probability" and "Theoratical Probability" are pretty close.
 
 ### Patch 14.23 
 In this patch, the chance of getting the anomaly we’re looking for increase every trail because we’re selecting anomalies that we’re not looking for out of the pool. But if we look at the number of trails to get the anomaly, the chance is the same for every trial. <br>
