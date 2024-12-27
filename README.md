@@ -1,4 +1,4 @@
-# TFT Set 13 Anomaly Study
+# TFT Into the Arcane(Set 13) Anomaly Study
 Have you ever wonder how many time do we have to roll until we found the anomaly that we're looking for in TFT Set13? <br><br>
 ![TeamfightTactics_Set13_IntotheArcane_KeyVisual_Powder_Sevika_Vander_Vi](https://github.com/user-attachments/assets/cf9b3a1e-c547-4252-b89f-c8ebfa2e9658)
 
