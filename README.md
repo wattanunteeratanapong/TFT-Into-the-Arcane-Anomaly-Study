@@ -32,14 +32,14 @@ Running out of anomaly after 60 trail <br>
 This scenerio we could apply "Geometric Random Variable" <br>
 P(n) is a probability of success for the first time at n trial after fail n-1 trail <br>
 P(n) = pᵏ(1-p)ⁿ⁻¹ <br>
-P(1) = (1/60)¹(59/60)⁰ = 0.01639 <br>
-P(2) = (1/60)¹(59/60)¹ = 0.01612 <br>
-P(3) = (1/60)¹(59/60)² = 0.01585 <br>
-P(4) = (1/60)¹(59/60)³ = 0.01558 <br>
-P(5) = (1/60)¹(59/60)⁴ = 0.01532 <br>
-P(60) = (1/60)¹(59/60)⁵⁹ = 0.00608 <br>
-P(100) = (1/60)¹(59/60)⁹⁹ = 0.00310 <br>
-P(200) = (1/60)¹(59/60)¹⁹⁹ = 0.00058 <br>
+P(1) = (1/60)¹(59/60)⁰ = 0.01666 <br>
+P(2) = (1/60)¹(59/60)¹ = 0.01639 <br>
+P(3) = (1/60)¹(59/60)² = 0.01612 <br>
+P(4) = (1/60)¹(59/60)³ = 0.01585 <br>
+P(5) = (1/60)¹(59/60)⁴ = 0.01558 <br>
+P(60) = (1/60)¹(59/60)⁵⁹ = 0.00618 <br>
+P(100) = (1/60)¹(59/60)⁹⁹ = 0.00316 <br>
+P(200) = (1/60)¹(59/60)¹⁹⁹ = 0.00059 <br>
 This patch anomaly will not running out <br><br>
 
 
